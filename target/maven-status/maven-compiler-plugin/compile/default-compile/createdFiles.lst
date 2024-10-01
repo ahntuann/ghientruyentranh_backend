@@ -1,0 +1,5 @@
+com/alloymobile/restapi/resource/DepartmentResource.class
+com/alloymobile/restapi/persistence/Department.class
+com/alloymobile/restapi/service/DepartmentService.class
+com/alloymobile/restapi/config/SwaggerConfiguration.class
+com/alloymobile/restapi/persistence/DepartmentRepository.class

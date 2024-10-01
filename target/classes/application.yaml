@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://192.168.89.137:1433;databaseName=companydb;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: sa123456
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 8080
